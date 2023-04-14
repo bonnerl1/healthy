@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/log/log",
+    "pages/login/login",
+    "pages/data/data",
+    "pages/note/note",
+    "pages/test/test"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d43c33",
+    "navigationBarTitleText": "健康检测系统",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "black",
+    "selectedColor": "#d43c33",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "/picture/shouye.png",
+        "selectedIconPath": "/picture/shouye1.png"
+      },
+      {
+        "pagePath": "pages/data/data",
+        "text": "历史数据",
+        "iconPath": "/picture/data1.png",
+        "selectedIconPath": "/picture/data.png"
+      },
+      {
+        "pagePath": "pages/note/note",
+        "text": "备忘录",
+        "iconPath": "/picture/日志.png",
+        "selectedIconPath": "/picture/日志1.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

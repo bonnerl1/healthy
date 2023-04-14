@@ -1,0 +1,37 @@
+<view class='page'>
+  <view class='nav'>
+    <view bindtap='click1' class='{{nav1}}'>
+      <text>待办</text>
+    </view>
+    <view bindtap='click2' class='{{nav2}}'>
+      <text>已办</text>
+    </view>
+  </view>
+
+  <view class='body'>
+    <!-- 待办开始 -->
+    <view wx:if="{{condition1}}">
+      <view class='list1' wx:for="{{array}}" id='{{index}}' wx:key="index">
+        {{index+1}}.{{item}}
+        <button bindtap='short' data-index='{{index}}' id="btn1">已办</button>
+      </view>
+      <!-- 输入框增加 -->
+      <view class='btn'>
+        <button bindtap="click" type='primary' id="btn2">添加事件</button>
+      </view>
+    </view>
+    <form id='area' wx:if="{{input}}" bindsubmit="confirm">
+      <textarea auto-height placeholder='输入待办事项' name='note' class="note"></textarea>
+      <button type="primary" form-type="submit" id="btn2" style="margin:40rpx auto">确认添加</button>
+    </form>
+    <!-- 待办结尾-->
+    <!-- 已办开始 -->
+    <view wx:if="{{condition2}}" class='finish'>
+      <view class="list2" wx:for="{{array1}}" wx:key="index">
+        {{index+1}}.{{item}}
+        <button bindtap='delete' data-index='{{index}}' id="btn3">删除</button>
+      </view>
+    </view>
+    <!-- 已办结尾 -->
+  </view>
+</view>

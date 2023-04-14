@@ -1,0 +1,14 @@
+<!--pages/log.wxml-->
+<view class="container">
+  <view class="header">
+    <image src="{{pic}}"></image>
+    <text>{{name}}</text>
+  </view>
+  <button bindtap="get">获取信息</button>
+</view>
+<view class="container">
+  <view class="header">
+    <text>{{dizhi}}</text>
+  </view>
+  <button bindtap="local">获取地址</button>
+</view>

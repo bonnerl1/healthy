@@ -1,0 +1,69 @@
+.container{ 
+  padding: 15rpx;
+}
+.header{
+  background-color: #3d7ef9;
+  color: white;
+  padding: 15rpx 30rpx;
+  border-radius: 20rpx;
+}
+.one{
+  display: flex;
+  justify-content: space-between;
+}
+.one text{
+  font-size: 26rpx;
+  height: 30rpx;
+  padding-bottom: 15rpx;
+}
+.two{
+  display: flex;
+  justify-content: space-between;
+}
+.two text{
+  font-size: 52rpx;
+  padding-bottom: 15rpx;
+}
+.three text{
+  font-size: 22rpx;
+}
+/*body*/
+.body-wrapper{
+  margin-top: 40rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.date-logo image{
+  width: 107rpx;
+  height: 107rpx;
+}
+.date{
+  display: flex;
+  justify-content: space-around;
+  background-color: #fff;
+  width: 300rpx;
+  height: 160rpx;
+  border-radius:40rpx ;
+  box-shadow: #77778a 0 0 10rpx;
+  padding: 0 15rpx;
+}
+.date-logo{
+  display: flex;
+  align-items: center;
+}
+.date-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.date-value{
+  font-size: 50rpx;
+}
+#btn{
+  padding: 10rpx;
+  width: 220rpx;
+  font-size: 30rpx;
+  background-color: #009fe8;
+  color: #fff;
+  margin-top: 40rpx;
+}

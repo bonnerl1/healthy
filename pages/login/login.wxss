@@ -1,0 +1,24 @@
+/* pages/login/login.wxss */
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header-title image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50rpx;
+}
+.header-title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:25rpx
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:25rpx
+}

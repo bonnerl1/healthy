@@ -1,0 +1,47 @@
+<view class="title">
+  <image src="../../picture/data1.png" class="titleimg"></image> 历史数据
+</view>
+<view class="container" wx:for="{{datalist}}" wx:key="index">
+  <view class="content">
+    <view class="data">
+      <image src="../../picture/1.png" class="dataimg"></image>
+      <text>室内温度:{{item[5].datapoints[0].value}}%c</text>
+    </view>
+    <view class="data">
+      <image src="../../picture/2.png" class="dataimg"></image>
+      <text>室内湿度:{{item[4].datapoints[0].value}}%RH</text>
+    </view>
+  </view>
+  <view class="content">
+    <view class="data">
+      <image src="../../picture/3.png" class="dataimg"></image>
+      <text>PM2.5:{{item[3].datapoints[0].value}}μg/m³</text>
+    </view>
+    <view class="data">
+      <image src="../../picture/4.png" class="dataimg"></image>
+      <text>心率:{{item[7].datapoints[0].value}}bpm</text>
+    </view>
+  </view>
+  <view class="content">
+    <view class="data">
+      <image src="../../picture/5.png" class="dataimg"></image>
+      <text>收缩压:{{item[9].datapoints[0].value}}mmHg</text>
+    </view>
+    <view class="data">
+      <image src="../../picture/5.png" class="dataimg"></image>
+      <text>舒张压:{{item[8].datapoints[0].value}}mmHg</text>
+    </view>
+  </view>
+  <view class="content">
+    <view class="data">
+      <image src="../../picture/6.png" class="dataimg"></image>
+      <text>脉搏:{{item[0].datapoints[0].value}}bpm</text>
+    </view>
+    <view class="data">
+      <image src="../../picture/7.png" class="dataimg"></image>
+      <text>人体温度:{{item[1].datapoints[0].value}}%c</text>
+    </view>
+  </view>
+  <view class="time">保存时间：{{item[10]}}</view>
+</view>
+<button id="btn" bindtap="delete">一键清空</button>

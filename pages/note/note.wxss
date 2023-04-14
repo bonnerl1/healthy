@@ -1,0 +1,103 @@
+.page {
+  margin: 0rpx 50rpx 50rpx 50rpx;
+  text-align: center;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  font-size: 40rpx;
+  height: 70rpx;
+  line-height: 70rpx;
+}
+
+.nav1 {
+  flex: 1;
+  background-color: #009fe8;
+  color: #f2f2f2;
+}
+
+.nav2 {
+  flex: 1;
+  background-color: lightgray;
+  color: #000;
+}
+
+.body {
+  background-color: #f2f2f2;
+}
+
+.list1 {
+  font-size: 30rpx;
+  border: 1rpx;
+  padding: 15rpx 25rpx;
+  background-color: #fff;
+  margin: 20rpx 0;
+  border: 1rpx solid gray;
+  border-radius: 30rpx;
+  text-align: left;
+}
+
+.btn {
+  margin: 50rpx 0rpx 0rpx 0rpx;
+}
+
+#area {
+  width: 100%;
+  height: 200rpx;
+  background-color: #f2f2f2;
+}
+
+.list2 {
+  font-size: 30rpx;
+  border: 1rpx;
+  padding: 15rpx 25rpx;
+  background-color: #fff;
+  margin: 20rpx 0;
+  border: 1rpx solid gray;
+  border-radius: 30rpx;
+  text-align: left;
+}
+#btn1{
+  padding: 0;
+  width: 53px;
+  font-size: 28rpx;
+  font-weight: 400;
+  float: right;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #009fe8;
+  color: #fff;
+  position: relative;
+  bottom: 5rpx;
+}
+#btn3{
+  padding: 0;
+  width: 53px;
+  font-size: 28rpx;
+  font-weight: 400;
+  float: right;
+  height: 50rpx;
+  line-height: 50rpx;
+  background-color: #f37069;
+  color: #fff;
+  position: relative;
+  bottom: 5rpx;
+}
+#btn2{
+  padding: 10rpx;
+  width: 220rpx;
+  font-size: 30rpx;
+  background-color: #009fe8;
+}
+.finish{
+  background-color: #f2f2f2;
+}
+.note{
+  /* margin-top: 30rpx; */
+  padding: 20rpx;
+  border: 1rpx solid gray;
+  position: relative;
+  top: 20rpx;
+  background-color: #fff;
+}

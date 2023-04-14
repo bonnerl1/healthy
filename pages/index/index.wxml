@@ -1,0 +1,109 @@
+<view class="container">
+  <view class="header">
+    <view class="one">
+      <text>空气质量：优</text>
+      <text>{{city}}</text>
+    </view>
+    <view class="two">
+      <text>55</text>
+      <text>{{type}}</text>
+    </view>
+    <view class="three">
+      <text>{{tip}}</text>
+    </view>
+  </view>
+  <view class="body">
+    <view class="body-wrapper">
+      <view class="date">
+        <view class="date-logo">
+          <image src="/picture/1.png"></image>
+        </view>
+        <view class="date-text">
+          <view class="date-title">室内温度</view>
+          <view class="date-value">{{tempo}}<text style="font-size: 28rpx;">℃</text></view>
+        </view>
+      </view>
+      <view class="date">
+        <view class="date-logo">
+          <image src="/picture/2.png"></image>
+        </view>
+        <view class="date-text">
+          <view class="date-title">室内湿度</view>
+          <view class="date-value">{{hum}}<text style="font-size: 28rpx;">%RH</text></view>
+        </view>
+      </view>
+    </view>
+    <view class="body-wrapper">
+      <view class="date">
+        <view class="date-logo">
+          <image src="/picture/3.png" style="width: 85rpx;height: 85rpx;"></image>
+        </view>
+        <view class="date-text">
+          <view class="date-title">PM2.5</view>
+          <view class="date-value">{{PM}}<text style="font-size: 28rpx;">μg/m³</text></view>
+        </view>
+      </view>
+      <view class="date">
+        <view class="date-logo">
+          <image src="/picture/4.png"></image>
+        </view>
+        <view class="date-text">
+          <view class="date-title">心率</view>
+          <view class="date-value">{{heart}}<text style="font-size: 28rpx;">bpm</text></view>
+        </view>
+      </view>
+    </view>
+    <view class="body-wrapper">
+      <view class="date">
+        <view class="date-logo">
+          <image src="/picture/5.png" style="width: 90rpx;height: 90rpx;"></image>
+        </view>
+        <view class="date-text">
+          <view class="date-title">收缩压</view>
+          <view class="date-value">{{blood}}<text style="font-size: 23rpx;">mmHg</text></view>
+        </view>
+      </view>
+      <view class="date">
+        <view class="date-logo">
+          <image src="/picture/5.png" style="width: 90rpx;height: 90rpx;"></image>
+        </view>
+        <view class="date-text">
+          <view class="date-title">舒张压</view>
+          <view class="date-value">{{Diastolic}}<text style="font-size: 23rpx;">mmHg</text></view>
+        </view>
+      </view>
+    </view>
+    <view class="body-wrapper">
+      <view class="date">
+        <view class="date-logo">
+          <image src="/picture/6.png" style="width: 90rpx;height: 90rpx;"></image>
+        </view>
+        <view class="date-text">
+          <view class="date-title">脉搏</view>
+          <view class="date-value">{{pulse}}<text style="font-size: 28rpx;">bpm</text></view>
+        </view>
+      </view>
+      <view class="date">
+        <view class="date-logo">
+          <image src="/picture/7.png"></image>
+        </view>
+        <view class="date-text">
+          <view class="date-title">人体温度</view>
+          <view class="date-value">{{humantem}}<text style="font-size: 28rpx;">℃</text></view>
+        </view>
+      </view>
+    </view>
+    <!-- <view class="body-wrapper">
+      <view class="date">
+        <view class="date-logo">
+          <image src="/picture/闪光报警器.png"></image>
+        </view>
+        <view class="date-text">
+          <view class="date-title">报警器</view>
+          <switch color="#3def9" checked="beep" bindchange="onbeepchange"></switch>
+        </view>
+      </view>
+    </view> -->
+  </view>
+  <button id="btn" bindtap="click">保存数据</button>
+</view>

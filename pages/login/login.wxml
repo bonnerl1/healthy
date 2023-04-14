@@ -1,0 +1,14 @@
+<!--pages/login/login.wxml-->
+<view class="container">
+<view class="header">
+  <view class="header-title">
+    <image src="{{pic}}"></image>
+    <text>{{name}}</text>
+  </view>
+  <button bindtap="getuser">获取用户信息</button>
+</view>
+<view class="body">
+  <text>{{local}}</text>
+  <button bindtap="getlocal">获取当前位置</button>
+</view>
+</view>

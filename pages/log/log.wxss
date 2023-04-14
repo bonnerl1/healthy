@@ -1,0 +1,11 @@
+/* pages/log.wxss */
+.header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20rpx;
+}
+.header image{
+  width: 107rpx;
+  height: 107rpx;
+}
